@@ -162,26 +162,22 @@ body {
   }
   .flip-card {
     background-color: transparent;
-    width: 120% ;/* Adjust width as needed */
+    width: 130% ;/* Adjust width as needed */
     height: 70%; /* Adjust height as needed */
     perspective: 1000px;
     position: relative;
     overflow: hidden; /* Ensure the image doesn't overflow */
   }
   .flip-card-back {
-    font-size: 14px; /* Smaller base font size for mobile */
+    font-size: 12px; /* Smaller base font size for mobile */
   }
 
   .flip-card-back h2 {
-    font-size: 20px; /* Adjusted size for h2 on mobile */
+    font-size: 18px; /* Adjusted size for h2 on mobile */
   }
 
   .flip-card-back h3 {
-    font-size: 14px; /* Adjusted size for h3 on mobile */
-  }
-
-  .flip-card-back h3[data-language="arabic"] {
-    font-size: 18px; /* Slightly larger for Arabic text on mobile */
+    font-size: 12px; /* Adjusted size for h3 on mobile */
   }
 
 }
