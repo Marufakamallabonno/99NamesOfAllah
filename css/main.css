@@ -38,7 +38,7 @@ body {
 }
 .flip-card-back h3 {
   font-family: 'VT323', monospace; /* Example font family */
-  font-size: clamp(11px, 3vw, 24px);
+  font-size: clamp(11.5px, 3vw, 24px);
   
 }
 .flip-card-back h2 {
