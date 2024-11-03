@@ -25,7 +25,7 @@ const allahNames = {
     "Al-Baasit": "The Extender",
     "Al-Khafidh": "The Reducer",
     "Ar-Rafi": "The Exalter",
-    "Al-Mu'izz": "The Honourer/Bestower",
+    "Al-Mu'izz": "The Honourer/ Bestower",
     "Al-Mudhil": "The Humiliator",
     "As-Samee'": "The All-Hearing",
     "Al-Basir": "The All-Seeing",
