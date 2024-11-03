@@ -161,7 +161,7 @@ body {
   }
   .flip-card {
     background-color: transparent;
-    width: 130% ;/* Adjust width as needed */
+    width: 50% ;/* Adjust width as needed */
     height: 70%; /* Adjust height as needed */
     perspective: 1000px;
     position: relative;
