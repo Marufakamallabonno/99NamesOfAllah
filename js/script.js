@@ -1,209 +1,209 @@
 
 
 // Dictionary of Allah's names with their meanings
-const allahNames = {
-    "Ar-Rahman": "The Most Merciful",
-    "Ar-Raheem": "The Most Compassionate",
-    "Al-Malik": "The King",
-    "Al-Quddus": "The Most Holy",
-    "As-Salam": "The Source of Peace",
-    "Al-Mu'min": "The Inspirer of Faith",
-    "Al-Muhaymin": "The Guardian",
-    "Al-Aziz": "The Victorious",
-    "Al-Jabbar": "The Compeller",
-    "Al-Mutakabbir": "The Supreme",
-    "Al-Khaliq": "The Creator",
-    "Al-Bari": "The Originator",
-    "Al-Musawwir": "The Fashioner",
-    "Al-Ghaffar": "The Forgiving",
-    "Al-Qahhar": "The Subduer",
-    "Al-Wahhab": "The Giver of Gifts",
-    "Ar-Razzaq": "The Provider",
-    "Al-Fattah": "The Opener",
-    "Al-'Aleem": "The All-Knowing",
-    "Al-Qabid": "The Constrictor",
-    "Al-Baasit": "The Extender",
-    "Al-Khafidh": "The Reducer",
-    "Ar-Rafi": "The Exalter",
-    "Al-Mu'izz": "The Honourer/Bestower",
-    "Al-Mudhil": "The Humiliator",
-    "As-Samee'": "The All-Hearing",
-    "Al-Basir": "The All-Seeing",
-    "Al-Hakam": "The Judge",
-    "Al-`Adl": "The Just",
-    "Al-Latif": "The Subtle One",
-    "Al-Khabeer": "The All-Aware",
-    "Al-Halim": "The Most Forbearing",
-    "Al-Atheem": "The Magnificent",
-    "Al-Ghafur": "The Exceedingly Forgiving",
-    "Ash-Shakur": "The Most Appreciative",
-    "Al-'Alee": "The Exalted",
-    "Al-Kabeer": "The Greatest",
-    "Al-Hafidh": "The Preserver",
-    "Al-Muqeet": "The Sustainer",
-    "Al-Haseeb": "The Reckoner",
-    "Al-Jaleel": "The Majestic",
-    "Al-Kareem": "The Most Generous",
-    "Ar-Raqeeb": "The Watchful",
-    "Al-Mujeeb": "The Responsive One",
-    "Al-Wasi": "The All-Encompassing",
-    "Al-Hakim": "The All Wise",
-    "Al-Wadud": "The Loving One",
-    "Al-Majeed": "The Majestic One",
-    "Al-Ba'ith": "The Resurrector",
-    "Ash-Shaheed": "The All Witnessing",
-    "Al-Haqq": "The Truth",
-    "Al-Wakil": "The Trustee",
-    "Al-Qawiyy": "The Possessor of All Strength",
-    "Al-Maeen": "The Firm",
-    "Al-Waliyy": "The Protecting Associate",
-    "Al-Hameed": "The Praiseworthy",
-    "Al-Muhsee": "The All-Enumerating",
-    "Al-Mubdi'": "The Originator",
-    "Al-Mu'id": "The Restorer",
-    "Al-Muhyee": "The Giver of Life",
-    "Al-Mumeet": "The Taker of Life",
-    "Al-Hayy": "The Ever Living One",
-    "Al-Qayyum": "The Self-Existing One",
-    "Al-Wajid": "The Finder",
-    "Al-Maajid": "The Glorious",
-    "Al-Waahid": "The Unique, The Single",
-    "Al-Ahad": "The Unique",
-    "As-Samad": "The Satisfier of All Needs",
-    "Al-Qadir": "The All Powerful",
-    "Al-Muqtadir": "The Omnipotent",
-    "Al-Muqaddim": "The Expediter",
-    "Al-Mu'akhkhir": "The Delayer",
-    "Al-Awwal": "The First",
-    "Al-Akhir": "The Last",
-    "Az-Dhaahir": "The Manifest One",
-    "Al-Batin": "The Hidden One",
-    "Al-Waali": "The Protecting Friend",
-    "Al-Muta'ali": "The Supreme One",
-    "Al-Barr": "The Source of Goodness",
-    "At-Tawwab": "The Ever-Pardoning",
-    "Al-Muntaqim": "The Avenger",
-    "Al-'Afuww": "The Forgiver",
-    "Ar-Ra'uf": "The Most Kind",
-    "Malik-al-Mulk": "Master of the Kingdom",
-    "Dhu-al-Jalal wa-al-Ikram": "Lord of Majesty and Generosity",
-    "Al-Muqsit": "The Equitable One",
-    "Al-Jaami'": "The Gatherer",
-    "Al-Ghaniyy": "The Self-Sufficient, The Wealthy",
-    "Al-Mughni": "The Enricher",
-    "Al-Mani'": "The Withholder",
-    "Ad-Darr": "The Distresser",
-    "An-Nafi'": "The Benefactor",
-    "An-Nur": "The Light",
-    "Al-Hadi": "The Guide",
-    "Al-Badi": "The Incomparable Originator",
-    "Al-Baqi": "The Everlasting One",
-    "Al-Waarith": "The Inheritor of All",
-    "Ar-Rashid": "The Righteous Teacher",
-    "As-Sabur": "The Patient One",
-};
-const allahNamesArabic = {
-    "ٱلْرَّحْمَـانُ": "The Most or Entirely Merciful",
-    "ٱلْرَّحِيْمُ": "The Bestower of Mercy",
-    "ٱلْمَلِكُ": "The King and Owner of Dominion",
-    "ٱلْقُدُّوسُ": "The Absolutely Pure",
-    "ٱلْسَّلَامُ": "The Perfection and Giver of Peace",
-    "ٱلْمُؤْمِنُ": "The One Who gives Emaan and Security",
-    "ٱلْمُهَيْمِنُ": "The Guardian, The Witness, The Overseer",
-    "ٱلْعَزِيزُ": "The All Mighty",
-    "ٱلْجَبَّارُ": "The Compeller, The Restorer",
-    "ٱلْمُتَكَبِّرُ": "The Supreme, The Majestic",
-    "ٱلْخَالِقُ": "The Creator, The Maker",
-    "ٱلْبَارِئُ": "The Originator",
-    "ٱلْمُصَوِّرُ": "The Fashioner",
-    "ٱلْغَفَّارُ": "The All- and Oft-Forgiving",
-    "ٱلْقَهَّارُ": "The Subduer, The Ever-Dominating",
-    "ٱلْوَهَّابُ": "The Giver of Gifts",
-    "ٱلْرَّزَّاقُ": "The Provider",
-    "ٱلْفَتَّاحُ": "The Opener, The Judge",
-    "ٱلْعَلِيمُ": "The All-Knowing, The Omniscient",
-    "ٱلْقَابِضُ": "The Withholder",
-    "ٱلْبَاسِطُ": "The Extender",
-    "ٱلْخَافِضُ": "The Reducer, The Abaser",
-    "ٱلْرَّافِعُ": "The Exalter, The Elevator",
-    "ٱلْمُعِزُّ": "The Honourer, The Bestower",
-    "ٱلْمُذِلُّ": "The Dishonourer, The Humiliator",
-    "ٱلْسَّمِيعُ": "The All-Hearing",
-    "ٱلْبَصِيرُ": "The All-Seeing",
-"ٱلْحَكَمُ": "The Judge, The Giver of Justice",
-"ٱلْعَدْلُ": "The Utterly Just",
-"ٱلْلَّطِيفُ": "The Subtle One, The Most Gentle",
-"ٱلْخَبِيرُ": "The Acquainted, the All-Aware",
-"ٱلْحَلِيمُ": "The Most Forbearing",
-"ٱلْعَظِيمُ": "The Magnificent, The Supreme",
-"ٱلْغَفُورُ": "The Forgiving, The Exceedingly Forgiving",
-"ٱلْشَّكُورُ": "The Most Appreciative",
-"ٱلْعَلِيُّ": "The Most High, The Exalted",
-"ٱلْكَبِيرُ": "The Greatest, The Most Grand",
-"ٱلْحَفِيظُ": "The Preserver, The All-Heedful and All-Protecting",
-"ٱلْمُقِيتُ": "The Sustainer",
-"ٱلْحَسِيبُ": "The Reckoner, The Sufficient",
-"ٱلْجَلِيلُ": "The Majestic",
-"ٱلْكَرِيمُ": "The Most Generous, The Most Esteemed",
-"ٱلْرَّقِيبُ": "The Watchful",
-"ٱلْمُجِيبُ": "The Responsive One",
-"ٱلْوَاسِعُ": "The All-Encompassing, the Boundless",
-"ٱلْحَكِيمُ": "The All-Wise",
-"ٱلْوَدُودُ": "The Most Loving",
-"ٱلْمَجِيدُ": "The Glorious, The Most Honorable",
-"ٱلْبَاعِثُ": "The Resurrector, The Raiser of the Dead",
-"ٱلْشَّهِيدُ": "The All- and Ever Witnessing",
-"ٱلْحَقُّ": "The Absolute Truth",
-"ٱلْوَكِيلُ": "The Trustee, The Disposer of Affairs",
-"ٱلْقَوِيُّ": "The All-Strong",
-"ٱلْمَتِينُ": "The Firm, The Steadfast",
-"ٱلْوَلِيُّ": "The Protecting Associate",
-"ٱلْحَمِيدُ": "The Praiseworthy",
-"ٱلْمُحْصِيُ": "The All-Enumerating, The Counter",
-"ٱلْمُبْدِئُ": "The Originator, The Initiator",
-"ٱلْمُعِيدُ": "The Restorer, The Reinstater",
-"ٱلْمُحْيِى": "The Giver of Life",
-"ٱلْمُمِيتُ": "The Bringer of Death, the Destroyer",
-"ٱلْحَىُّ": "The Ever-Living",
-"ٱلْقَيُّومُ": "The Sustainer, The Self-Subsisting",
-"ٱلْوَاجِدُ": "The Perceiver",
-"ٱلْمَاجِدُ": "The Illustrious, the Magnificent",
-"ٱلْوَاحِدُ": "The One",
-"ٱلْأَحَد": "The Unique, The Only One",
-"ٱلْصَّمَدُ": "The Eternal, Satisfier of Needs",
-"ٱلْقَادِرُ": "The Capable, The Powerful",
-"ٱلْمُقْتَدِرُ": "The Omnipotent",
-"ٱلْمُقَدِّمُ": "The Expediter, The Promoter",
-"ٱلْمُؤَخِّرُ": "The Delayer, the Retarder",
-"ٱلأَوَّلُ": "The First",
-"ٱلْآخِرُ": "The Last",
-"ٱلْظَّاهِرُ": "The Manifest",
-"ٱلْبَاطِنُ": "The Hidden One, Knower of the Hidden",
-"ٱلْوَالِي": "The Governor, The Patron",
-"ٱلْمُتَعَالِي": "The Self Exalted",
-"ٱلْبَرُّ": "The Source of Goodness, the Kind Benefactor",
-"ٱلْتَّوَّابُ": "The Ever-Pardoning, The Relenting",
-"ٱلْمُنْتَقِمُ": "The Avenger",
-"ٱلْعَفُوُّ": "The Pardoner",
-"ٱلْرَّؤُفُ": "The Most Kind",
-"مَالِكُ ٱلْمُلْكُ": "Master of the Kingdom, Owner of the Dominion",
-"ذُو ٱلْجَلَالِ وَٱلْإِكْرَامُ": "Possessor of Glory and Honour, Lord of Majesty and Generosity",
-"ٱلْمُقْسِطُ": "The Equitable, the Requiter",
-"ٱلْجَامِعُ": "The Gatherer, the Uniter",
-"ٱلْغَنيُّ": "The Self-Sufficient, The Wealthy",
-"ٱلْمُغْنِيُّ": "The Enricher",
-"ٱلْمَانِعُ": "The Withholder",
-"ٱلْضَّارُ": "The Distresser",
-"ٱلْنَّافِعُ": "The Propitious, the Benefactor",
-"ٱلْنُّورُ": "The Light, The Illuminator",
-"ٱلْهَادِي": "The Guide",
-"ٱلْبَدِيعُ": "The Incomparable Originator",
-"ٱلْبَاقِي": "The Ever-Surviving, The Everlasting",
-"ٱلْوَارِثُ": "The Inheritor, The Heir",
-"ٱلْرَّشِيدُ": "The Guide, Infallible Teacher",
-"ٱلْصَّبُورُ": "The Forbearing, The Patient"
-};
+// const allahNames = {
+//     "Ar-Rahman": "The Most Merciful",
+//     "Ar-Raheem": "The Most Compassionate",
+//     "Al-Malik": "The King",
+//     "Al-Quddus": "The Most Holy",
+//     "As-Salam": "The Source of Peace",
+//     "Al-Mu'min": "The Inspirer of Faith",
+//     "Al-Muhaymin": "The Guardian",
+//     "Al-Aziz": "The Victorious",
+//     "Al-Jabbar": "The Compeller",
+//     "Al-Mutakabbir": "The Supreme",
+//     "Al-Khaliq": "The Creator",
+//     "Al-Bari": "The Originator",
+//     "Al-Musawwir": "The Fashioner",
+//     "Al-Ghaffar": "The Forgiving",
+//     "Al-Qahhar": "The Subduer",
+//     "Al-Wahhab": "The Giver of Gifts",
+//     "Ar-Razzaq": "The Provider",
+//     "Al-Fattah": "The Opener",
+//     "Al-'Aleem": "The All-Knowing",
+//     "Al-Qabid": "The Constrictor",
+//     "Al-Baasit": "The Extender",
+//     "Al-Khafidh": "The Reducer",
+//     "Ar-Rafi": "The Exalter",
+//     "Al-Mu'izz": "The Honourer/ Bestower",
+//     "Al-Mudhil": "The Humiliator",
+//     "As-Samee'": "The All-Hearing",
+//     "Al-Basir": "The All-Seeing",
+//     "Al-Hakam": "The Judge",
+//     "Al-`Adl": "The Just",
+//     "Al-Latif": "The Subtle One",
+//     "Al-Khabeer": "The All-Aware",
+//     "Al-Halim": "The Most Forbearing",
+//     "Al-Atheem": "The Magnificent",
+//     "Al-Ghafur": "The Exceedingly Forgiving",
+//     "Ash-Shakur": "The Most Appreciative",
+//     "Al-'Alee": "The Exalted",
+//     "Al-Kabeer": "The Greatest",
+//     "Al-Hafidh": "The Preserver",
+//     "Al-Muqeet": "The Sustainer",
+//     "Al-Haseeb": "The Reckoner",
+//     "Al-Jaleel": "The Majestic",
+//     "Al-Kareem": "The Most Generous",
+//     "Ar-Raqeeb": "The Watchful",
+//     "Al-Mujeeb": "The Responsive One",
+//     "Al-Wasi": "The All-Encompassing",
+//     "Al-Hakim": "The All Wise",
+//     "Al-Wadud": "The Loving One",
+//     "Al-Majeed": "The Majestic One",
+//     "Al-Ba'ith": "The Resurrector",
+//     "Ash-Shaheed": "The All Witnessing",
+//     "Al-Haqq": "The Truth",
+//     "Al-Wakil": "The Trustee",
+//     "Al-Qawiyy": "The Possessor of All Strength",
+//     "Al-Maeen": "The Firm",
+//     "Al-Waliyy": "The Protecting Associate",
+//     "Al-Hameed": "The Praiseworthy",
+//     "Al-Muhsee": "The All-Enumerating",
+//     "Al-Mubdi'": "The Originator",
+//     "Al-Mu'id": "The Restorer",
+//     "Al-Muhyee": "The Giver of Life",
+//     "Al-Mumeet": "The Taker of Life",
+//     "Al-Hayy": "The Ever Living One",
+//     "Al-Qayyum": "The Self-Existing One",
+//     "Al-Wajid": "The Finder",
+//     "Al-Maajid": "The Glorious",
+//     "Al-Waahid": "The Unique, The Single",
+//     "Al-Ahad": "The Unique",
+//     "As-Samad": "The Satisfier of All Needs",
+//     "Al-Qadir": "The All Powerful",
+//     "Al-Muqtadir": "The Omnipotent",
+//     "Al-Muqaddim": "The Expediter",
+//     "Al-Mu'akhkhir": "The Delayer",
+//     "Al-Awwal": "The First",
+//     "Al-Akhir": "The Last",
+//     "Az-Dhaahir": "The Manifest One",
+//     "Al-Batin": "The Hidden One",
+//     "Al-Waali": "The Protecting Friend",
+//     "Al-Muta'ali": "The Supreme One",
+//     "Al-Barr": "The Source of Goodness",
+//     "At-Tawwab": "The Ever-Pardoning",
+//     "Al-Muntaqim": "The Avenger",
+//     "Al-'Afuww": "The Forgiver",
+//     "Ar-Ra'uf": "The Most Kind",
+//     "Malik-al-Mulk": "Master of the Kingdom",
+//     "Dhu-al-Jalal wa-al-Ikram": "Lord of Majesty and Generosity",
+//     "Al-Muqsit": "The Equitable One",
+//     "Al-Jaami'": "The Gatherer",
+//     "Al-Ghaniyy": "The Self-Sufficient, The Wealthy",
+//     "Al-Mughni": "The Enricher",
+//     "Al-Mani'": "The Withholder",
+//     "Ad-Darr": "The Distresser",
+//     "An-Nafi'": "The Benefactor",
+//     "An-Nur": "The Light",
+//     "Al-Hadi": "The Guide",
+//     "Al-Badi": "The Incomparable Originator",
+//     "Al-Baqi": "The Everlasting One",
+//     "Al-Waarith": "The Inheritor of All",
+//     "Ar-Rashid": "The Righteous Teacher",
+//     "As-Sabur": "The Patient One",
+// };
 
+const allahNames = {
+    "Ar-Rahman": { arabic: "ٱلرَّحْمَـٰنُ", meaning: "The Most Merciful" },
+    "Ar-Raheem": { arabic: "ٱلرَّحِيمُ", meaning: "The Most Compassionate" },
+    "Al-Malik": { arabic: "ٱلْمَلِكُ", meaning: "The King" },
+    "Al-Quddus": { arabic: "ٱلْقُدُّوسُ", meaning: "The Most Holy" },
+    "As-Salam": { arabic: "ٱلسَّلَامُ", meaning: "The Source of Peace" },
+    "Al-Mu'min": { arabic: "ٱلْمُؤْمِنُ", meaning: "The Inspirer of Faith" },
+    "Al-Muhaymin": { arabic: "ٱلْمُهَيْمِنُ", meaning: "The Guardian" },
+    "Al-Aziz": { arabic: "ٱلْعَزِيزُ", meaning: "The Victorious" },
+    "Al-Jabbar": { arabic: "ٱلْجَبَّارُ", meaning: "The Compeller" },
+    "Al-Mutakabbir": { arabic: "ٱلْمُتَكَبِّرُ", meaning: "The Supreme" },
+    "Al-Khaliq": { arabic: "ٱلْخَالِقُ", meaning: "The Creator" },
+    "Al-Bari": { arabic: "ٱلْبَارِئُ", meaning: "The Originator" },
+    "Al-Musawwir": { arabic: "ٱلْمُصَوِّرُ", meaning: "The Fashioner" },
+    "Al-Ghaffar": { arabic: "ٱلْغَفَّارُ", meaning: "The Forgiving" },
+    "Al-Qahhar": { arabic: "ٱلْقَهَّارُ", meaning: "The Subduer" },
+    "Al-Wahhab": { arabic: "ٱلْوَهَّابُ", meaning: "The Giver of Gifts" },
+    "Ar-Razzaq": { arabic: "ٱلرَّزَّاقُ", meaning: "The Provider" },
+    "Al-Fattah": { arabic: "ٱلْفَتَّاحُ", meaning: "The Opener" },
+    "Al-'Aleem": { arabic: "ٱلْعَلِيمُ", meaning: "The All-Knowing" },
+    "Al-Qabid": { arabic: "ٱلْقَابِضُ", meaning: "The Constrictor" },
+    "Al-Baasit": { arabic: "ٱلْبَاسِطُ", meaning: "The Extender" },
+    "Al-Khafidh": { arabic: "ٱلْخَافِضُ", meaning: "The Reducer" },
+    "Ar-Rafi": { arabic: "ٱلرَّافِعُ", meaning: "The Exalter" },
+    "Al-Mu'izz": { arabic: "ٱلْمُعِزُّ", meaning: "The Honourer/ Bestower" },
+    "Al-Mudhil": { arabic: "ٱلْمُذِلُّ", meaning: "The Humiliator" },
+    "As-Samee'": { arabic: "ٱلسَّمِيعُ", meaning: "The All-Hearing" },
+    "Al-Basir": { arabic: "ٱلْبَصِيرُ", meaning: "The All-Seeing" },
+    "Al-Hakam": { arabic: "ٱلْحَكَمُ", meaning: "The Judge" },
+    "Al-`Adl": { arabic: "ٱلْعَدْلُ", meaning: "The Just" },
+    "Al-Latif": { arabic: "ٱللَّطِيفُ", meaning: "The Subtle One" },
+    "Al-Khabeer": { arabic: "ٱلْخَبِيرُ", meaning: "The All-Aware" },
+    "Al-Halim": { arabic: "ٱلْحَلِيمُ", meaning: "The Most Forbearing" },
+    "Al-Atheem": { arabic: "ٱلْعَظِيمُ", meaning: "The Magnificent" },
+    "Al-Ghafur": { arabic: "ٱلْغَفُورُ", meaning: "The Exceedingly Forgiving" },
+    "Ash-Shakur": { arabic: "ٱلشَّكُورُ", meaning: "The Most Appreciative" },
+    "Al-'Alee": { arabic: "ٱلْعَلِيُّ", meaning: "The Exalted" },
+    "Al-Kabeer": { arabic: "ٱلْكَبِيرُ", meaning: "The Greatest" },
+    "Al-Hafidh": { arabic: "ٱلْحَفِيظُ", meaning: "The Preserver" },
+    "Al-Muqeet": { arabic: "ٱلْمُقِيتُ", meaning: "The Sustainer" },
+    "Al-Haseeb": { arabic: "ٱلْحَسِيبُ", meaning: "The Reckoner" },
+    "Al-Jaleel": { arabic: "ٱلْجَلِيلُ", meaning: "The Majestic" },
+    "Al-Kareem": { arabic: "ٱلْكَرِيمُ", meaning: "The Most Generous" },
+    "Ar-Raqeeb": { arabic: "ٱلرَّقِيبُ", meaning: "The Watchful" },
+    "Al-Mujeeb": { arabic: "ٱلْمُجِيبُ", meaning: "The Responsive One" },
+    "Al-Wasi": { arabic: "ٱلْوَاسِعُ", meaning: "The All-Encompassing" },
+    "Al-Hakim": { arabic: "ٱلْحَكِيمُ", meaning: "The All Wise" },
+    "Al-Wadud": { arabic: "ٱلْوَدُودُ", meaning: "The Loving One" },
+    "Al-Majeed": { arabic: "ٱلْمَجِيدُ", meaning: "The Majestic One" },
+    "Al-Ba'ith": { arabic: "ٱلْبَاعِثُ", meaning: "The Resurrector" },
+    "Ash-Shaheed": { arabic: "ٱلشَّهِيدُ", meaning: "The All Witnessing" },
+    "Al-Haqq": { arabic: "ٱلْحَقُّ", meaning: "The Truth" },
+    "Al-Wakil": { arabic: "ٱلْوَكِيلُ", meaning: "The Trustee" },
+    "Al-Qawiyy": { arabic: "ٱلْقَوِيُّ", meaning: "The Possessor of All Strength" },
+    "Al-Mateen": { arabic: "ٱلْمَتِينُ", meaning: "The Firm" },
+    "Al-Waliyy": { arabic: "ٱلْوَلِيُّ", meaning: "The Protecting Associate" },
+    "Al-Hameed": { arabic: "ٱلْحَمِيدُ", meaning: "The Praiseworthy" },
+    "Al-Muhsee": { arabic: "ٱلْمُحْصِي", meaning: "The All-Enumerating" },
+    "Al-Mubdi'": { arabic: "ٱلْمُبْدِئُ", meaning: "The Originator" },
+    "Al-Mu'id": { arabic: "ٱلْمُعِيدُ", meaning: "The Restorer" },
+    "Al-Muhyee": { arabic: "ٱلْمُحْيِي", meaning: "The Giver of Life" },
+    "Al-Mumeet": { arabic: "ٱلْمُمِيتُ", meaning: "The Taker of Life" },
+    "Al-Hayy": { arabic: "ٱلْحَيُّ", meaning: "The Ever Living One" },
+    "Al-Qayyum": { arabic: "ٱلْقَيُّومُ", meaning: "The Self-Existing One" },
+    "Al-Waajid": { arabic: "ٱلْوَاجِدُ", meaning: "The Percieve" },
+    "Al-Maajid": { arabic: "ٱلْمَاجِدُ", meaning: "The Glorious" },
+    "Al-Waahid": { arabic: "ٱلْوَاحِدُ", meaning: "The Unique, The Single" },
+    "Al-Ahad": { arabic: "ٱلْأَحَدُ", meaning: "The Unique" },
+    "As-Samad": { arabic: "ٱلصَّمَدُ", meaning: "The Satisfier of All Needs" },
+    "Al-Qadir": { arabic: "ٱلْقَادِرُ", meaning: "The All Powerful" },
+    "Al-Muqtadir": { arabic: "ٱلْمُقْتَدِرُ", meaning: "The Omnipotent" },
+    "Al-Muqaddim": { arabic: "ٱلْمُقَدِّمُ", meaning: "The Expediter" },
+    "Al-Mu'akhkhir": { arabic: "ٱلْمُؤَخِّرُ", meaning: "The Delayer" },
+    "Al-Awwal": { arabic: "ٱلْأَوَّلُ", meaning: "The First" },
+    "Al-Akhir": { arabic: "ٱلْآخِرُ", meaning: "The Last" },
+    "Az-Dhaahir": { arabic: "ٱلظَّاهِرُ", meaning: "The Manifest One" },
+    "Al-Batin": { arabic: "ٱلْبَاطِنُ", meaning: "The Hidden One" },
+    "Al-Waali": { arabic: "ٱلْوَالِي", meaning: "The Protecting Friend" },
+    "Al-Muta'ali": { arabic: "ٱلْمُتَعَالِي", meaning: "The Supreme One" },
+    "Al-Barr": { arabic: "ٱلْبَرُّ", meaning: "The Source of Goodness" },
+    "At-Tawwab": { arabic: "ٱلتَّوَّابُ", meaning: "The Ever-Pardoning" },
+    "Al-Muntaqim": { arabic: "ٱلْمُنْتَقِمُ", meaning: "The Avenger" },
+    "Al-'Afuww": { arabic: "ٱلْعَفُوُّ", meaning: "The Forgiver" },
+    "Ar-Ra'uf": { arabic: "ٱلرَّؤُوفُ", meaning: "The Most Kind" },
+    "Malik-al-Mulk": { arabic: "مَالِكُ ٱلْمُلْكُ", meaning: "Master of the Kingdom" },
+    "Dhu-al-Jalal wa-al-Ikram": { arabic: "ذُو ٱلْجَلَالِ وَٱلْإِكْرَامِ", meaning: "Lord of Majesty and Generosity" },
+    "Al-Muqsit": { arabic: "ٱلْمُقْسِطُ", meaning: "The Equitable One" },
+    "Al-Jaami'": { arabic: "ٱلْجَامِعُ", meaning: "The Gatherer" },
+    "Al-Ghaniyy": { arabic: "ٱلْغَنِيُّ", meaning: "The Self-Sufficient, The Wealthy" },
+    "Al-Mughni": { arabic: "ٱلْمُغْنِي", meaning: "The Enricher" },
+    "Al-Mani'": { arabic: "ٱلْمَانِعُ", meaning: "The Withholder" },
+    "Ad-Darr": { arabic: "ٱلضَّارُّ", meaning: "The Distresser" },
+    "An-Nafi'": { arabic: "ٱلنَّافِعُ", meaning: "The Benefactor" },
+    "An-Nur": { arabic: "ٱلنُّورُ", meaning: "The Light" },
+    "Al-Hadi": { arabic: "ٱلْهَادِي", meaning: "The Guide" },
+    "Al-Badi": { arabic: "ٱلْبَدِيعُ", meaning: "The Incomparable Originator" },
+    "Al-Baqi": { arabic: "ٱلْبَاقِي", meaning: "The Everlasting One" },
+    "Al-Waarith": { arabic: "ٱلْوَارِثُ", meaning: "The Inheritor of All" },
+    "Ar-Rashid": { arabic: "ٱلرَّشِيدُ", meaning: "The Righteous Teacher" },
+    "As-Sabur": { arabic: "ٱلصَّبُورُ", meaning: "The Patient One" }
+};
 let usedPairs = new Set();
 let currentPairs = [];
 let flippedCards = [];
@@ -211,12 +211,10 @@ let matches = 0;
 
 function generateGamePairs() {
     // Filter out already used pairs
-    const savedLanguage = getSavedLanguagePreference();
-    const namesDict = savedLanguage === 'arabic' ? allahNamesArabic : allahNames;
-    const availablePairs = Object.entries(namesDict).filter(pair => 
+    const availablePairs = Object.entries(allahNames).filter(pair => 
         !usedPairs.has(pair[0]));
     
-    // Randomly select 8 pairs
+    // Randomly select pairs
     const selectedPairs = [];
     for(let i = 0; i < 6 && i < availablePairs.length; i++) {
         const randomIndex = Math.floor(Math.random() * availablePairs.length);
@@ -225,10 +223,10 @@ function generateGamePairs() {
     
     // Create array with both names and meanings
     currentPairs = [];
-    selectedPairs.forEach(([name, meaning]) => {
+    selectedPairs.forEach(([name, data]) => {
         currentPairs.push(
             { text: name, type: 'name', pair: name },
-            { text: meaning, type: 'meaning', pair: name }
+            { text: data.meaning, type: 'meaning', pair: name }
         );
     });
     
@@ -236,7 +234,19 @@ function generateGamePairs() {
     return currentPairs.sort(() => Math.random() - 0.5);
 }
 
+
 function createCard(cardData, index) {
+    let cardContent;
+    if (cardData.type === 'name') {
+        cardContent = `
+            <div class="name-container">
+                <h3 class="transliterated-name">${cardData.text}</h3>
+                <h4 class="arabic-text">${allahNames[cardData.pair].arabic}</h4>
+            </div>`;
+    } else {
+        cardContent = `<h3 class="meaning-text">${cardData.text}</h3>`;
+    }
+
     return `
         <div class="col-3">
             <div class="flip-card" data-index="${index}" data-pair="${cardData.pair}">
@@ -245,7 +255,7 @@ function createCard(cardData, index) {
                         <img class="front-face" src="image/logo.jpg" alt="Card">
                     </div>
                     <div class="flip-card-back">
-                        <h3>${cardData.text}</h3>
+                        ${cardContent}
                     </div>
                 </div>
             </div>
@@ -329,92 +339,8 @@ function handleCardClick(event) {
         }
     }
 }
-function handleLanguageChange(newLanguage) {
-    // Save the new language preference
-    saveLanguagePreference(newLanguage);
-    
-    // Update button text
-    document.getElementById('languageDropdown').textContent = 
-        newLanguage === 'arabic' ? 'Arabic' : 'Transliterated';
-    
-    // Reset game state
-    usedPairs = new Set();
-    currentPairs = [];
-    flippedCards = [];
-    matches = 0;
-    
-    // Reset score display
-    document.getElementById('matches').textContent = '0';
-    
-    // Clear and reinitialize the game board
-    gameBoard.innerHTML = '';
-    initializeGame();
-}
-// function saveLanguagePreference(language) {
-//     localStorage.setItem('preferredLanguage', language);
-// }
 
-// // Function to get saved language preference
-// function getSavedLanguagePreference() {
-//     return localStorage.getItem('preferredLanguage') || 'transliterated'; // default to transliterated if none saved
-// }
 
-// // Update your DOMContentLoaded event listener
-// document.addEventListener('DOMContentLoaded', () => {
-//     // Load saved preference and initialize game
-//     const savedLanguage = getSavedLanguagePreference();
-//     currentLanguage = savedLanguage;
-    
-//     // Update dropdown button text to show saved preference
-//     document.getElementById('languageDropdown').textContent = 
-//         savedLanguage === 'arabic' ? 'Arabic' : 'Transliterated';
-    
-//     initializeGame(savedLanguage);
-    
-//     // Add click handlers for language selection
-//     const dropdownItems = document.querySelectorAll('.dropdown-item');
-//     dropdownItems.forEach(item => {
-//         item.addEventListener('click', function(e) {
-//             e.preventDefault();
-//             const selectedLanguage = this.getAttribute('data-language');
-            
-//             // Save the selected language
-//             saveLanguagePreference(selectedLanguage);
-            
-//             // Update button text
-//             document.getElementById('languageDropdown').textContent = 
-//                 selectedLanguage === 'arabic' ? 'Arabic' : 'Transliterated';
-            
-//             // Update current language and restart game
-//             currentLanguage = selectedLanguage;
-//             resetAndRestartGame();
-//         });
-//     });
-// });
-// document.addEventListener('DOMContentLoaded', () => {
-//     // Load saved preference and initialize game
-//     const savedLanguage = getSavedLanguagePreference();
-    
-//     // Set initial button text
-//     document.getElementById('languageDropdown').textContent = 
-//         savedLanguage === 'arabic' ? 'Arabic' : 'Transliterated';
-    
-//     // Initialize game with saved language
-//     initializeGame();
-    
-//     // Add click handlers for language selection
-//     const dropdownItems = document.querySelectorAll('.dropdown-item');
-//     dropdownItems.forEach(item => {
-//         item.addEventListener('click', function(e) {
-//             e.preventDefault();
-//             const newLanguage = this.getAttribute('data-language');
-            
-//             // Only restart if language actually changed
-//             if (newLanguage !== getSavedLanguagePreference()) {
-//                 handleLanguageChange(newLanguage);
-//             }
-//         });
-//     });
-// });
+
 // Initialize game when page loads
 document.addEventListener('DOMContentLoaded', initializeGame);
