@@ -25,7 +25,7 @@ const allahNames = {
     "Al-Baasit": "The Extender",
     "Al-Khafidh": "The Reducer",
     "Ar-Rafi": "The Exalter",
-    "Al-Mu'izz": "The Honourer/ Bestower",
+    "Al-Mu'izz": "The Honourer/Bestower",
     "Al-Mudhil": "The Humiliator",
     "As-Samee'": "The All-Hearing",
     "Al-Basir": "The All-Seeing",
@@ -102,8 +102,107 @@ const allahNames = {
     "Ar-Rashid": "The Righteous Teacher",
     "As-Sabur": "The Patient One",
 };
-
-
+const allahNamesArabic = {
+    "ٱلْرَّحْمَـانُ": "The Most or Entirely Merciful",
+    "ٱلْرَّحِيْمُ": "The Bestower of Mercy",
+    "ٱلْمَلِكُ": "The King and Owner of Dominion",
+    "ٱلْقُدُّوسُ": "The Absolutely Pure",
+    "ٱلْسَّلَامُ": "The Perfection and Giver of Peace",
+    "ٱلْمُؤْمِنُ": "The One Who gives Emaan and Security",
+    "ٱلْمُهَيْمِنُ": "The Guardian, The Witness, The Overseer",
+    "ٱلْعَزِيزُ": "The All Mighty",
+    "ٱلْجَبَّارُ": "The Compeller, The Restorer",
+    "ٱلْمُتَكَبِّرُ": "The Supreme, The Majestic",
+    "ٱلْخَالِقُ": "The Creator, The Maker",
+    "ٱلْبَارِئُ": "The Originator",
+    "ٱلْمُصَوِّرُ": "The Fashioner",
+    "ٱلْغَفَّارُ": "The All- and Oft-Forgiving",
+    "ٱلْقَهَّارُ": "The Subduer, The Ever-Dominating",
+    "ٱلْوَهَّابُ": "The Giver of Gifts",
+    "ٱلْرَّزَّاقُ": "The Provider",
+    "ٱلْفَتَّاحُ": "The Opener, The Judge",
+    "ٱلْعَلِيمُ": "The All-Knowing, The Omniscient",
+    "ٱلْقَابِضُ": "The Withholder",
+    "ٱلْبَاسِطُ": "The Extender",
+    "ٱلْخَافِضُ": "The Reducer, The Abaser",
+    "ٱلْرَّافِعُ": "The Exalter, The Elevator",
+    "ٱلْمُعِزُّ": "The Honourer, The Bestower",
+    "ٱلْمُذِلُّ": "The Dishonourer, The Humiliator",
+    "ٱلْسَّمِيعُ": "The All-Hearing",
+    "ٱلْبَصِيرُ": "The All-Seeing",
+"ٱلْحَكَمُ": "The Judge, The Giver of Justice",
+"ٱلْعَدْلُ": "The Utterly Just",
+"ٱلْلَّطِيفُ": "The Subtle One, The Most Gentle",
+"ٱلْخَبِيرُ": "The Acquainted, the All-Aware",
+"ٱلْحَلِيمُ": "The Most Forbearing",
+"ٱلْعَظِيمُ": "The Magnificent, The Supreme",
+"ٱلْغَفُورُ": "The Forgiving, The Exceedingly Forgiving",
+"ٱلْشَّكُورُ": "The Most Appreciative",
+"ٱلْعَلِيُّ": "The Most High, The Exalted",
+"ٱلْكَبِيرُ": "The Greatest, The Most Grand",
+"ٱلْحَفِيظُ": "The Preserver, The All-Heedful and All-Protecting",
+"ٱلْمُقِيتُ": "The Sustainer",
+"ٱلْحَسِيبُ": "The Reckoner, The Sufficient",
+"ٱلْجَلِيلُ": "The Majestic",
+"ٱلْكَرِيمُ": "The Most Generous, The Most Esteemed",
+"ٱلْرَّقِيبُ": "The Watchful",
+"ٱلْمُجِيبُ": "The Responsive One",
+"ٱلْوَاسِعُ": "The All-Encompassing, the Boundless",
+"ٱلْحَكِيمُ": "The All-Wise",
+"ٱلْوَدُودُ": "The Most Loving",
+"ٱلْمَجِيدُ": "The Glorious, The Most Honorable",
+"ٱلْبَاعِثُ": "The Resurrector, The Raiser of the Dead",
+"ٱلْشَّهِيدُ": "The All- and Ever Witnessing",
+"ٱلْحَقُّ": "The Absolute Truth",
+"ٱلْوَكِيلُ": "The Trustee, The Disposer of Affairs",
+"ٱلْقَوِيُّ": "The All-Strong",
+"ٱلْمَتِينُ": "The Firm, The Steadfast",
+"ٱلْوَلِيُّ": "The Protecting Associate",
+"ٱلْحَمِيدُ": "The Praiseworthy",
+"ٱلْمُحْصِيُ": "The All-Enumerating, The Counter",
+"ٱلْمُبْدِئُ": "The Originator, The Initiator",
+"ٱلْمُعِيدُ": "The Restorer, The Reinstater",
+"ٱلْمُحْيِى": "The Giver of Life",
+"ٱلْمُمِيتُ": "The Bringer of Death, the Destroyer",
+"ٱلْحَىُّ": "The Ever-Living",
+"ٱلْقَيُّومُ": "The Sustainer, The Self-Subsisting",
+"ٱلْوَاجِدُ": "The Perceiver",
+"ٱلْمَاجِدُ": "The Illustrious, the Magnificent",
+"ٱلْوَاحِدُ": "The One",
+"ٱلْأَحَد": "The Unique, The Only One",
+"ٱلْصَّمَدُ": "The Eternal, Satisfier of Needs",
+"ٱلْقَادِرُ": "The Capable, The Powerful",
+"ٱلْمُقْتَدِرُ": "The Omnipotent",
+"ٱلْمُقَدِّمُ": "The Expediter, The Promoter",
+"ٱلْمُؤَخِّرُ": "The Delayer, the Retarder",
+"ٱلأَوَّلُ": "The First",
+"ٱلْآخِرُ": "The Last",
+"ٱلْظَّاهِرُ": "The Manifest",
+"ٱلْبَاطِنُ": "The Hidden One, Knower of the Hidden",
+"ٱلْوَالِي": "The Governor, The Patron",
+"ٱلْمُتَعَالِي": "The Self Exalted",
+"ٱلْبَرُّ": "The Source of Goodness, the Kind Benefactor",
+"ٱلْتَّوَّابُ": "The Ever-Pardoning, The Relenting",
+"ٱلْمُنْتَقِمُ": "The Avenger",
+"ٱلْعَفُوُّ": "The Pardoner",
+"ٱلْرَّؤُفُ": "The Most Kind",
+"مَالِكُ ٱلْمُلْكُ": "Master of the Kingdom, Owner of the Dominion",
+"ذُو ٱلْجَلَالِ وَٱلْإِكْرَامُ": "Possessor of Glory and Honour, Lord of Majesty and Generosity",
+"ٱلْمُقْسِطُ": "The Equitable, the Requiter",
+"ٱلْجَامِعُ": "The Gatherer, the Uniter",
+"ٱلْغَنيُّ": "The Self-Sufficient, The Wealthy",
+"ٱلْمُغْنِيُّ": "The Enricher",
+"ٱلْمَانِعُ": "The Withholder",
+"ٱلْضَّارُ": "The Distresser",
+"ٱلْنَّافِعُ": "The Propitious, the Benefactor",
+"ٱلْنُّورُ": "The Light, The Illuminator",
+"ٱلْهَادِي": "The Guide",
+"ٱلْبَدِيعُ": "The Incomparable Originator",
+"ٱلْبَاقِي": "The Ever-Surviving, The Everlasting",
+"ٱلْوَارِثُ": "The Inheritor, The Heir",
+"ٱلْرَّشِيدُ": "The Guide, Infallible Teacher",
+"ٱلْصَّبُورُ": "The Forbearing, The Patient"
+};
 
 let usedPairs = new Set();
 let currentPairs = [];
@@ -112,7 +211,9 @@ let matches = 0;
 
 function generateGamePairs() {
     // Filter out already used pairs
-    const availablePairs = Object.entries(allahNames).filter(pair => 
+    const savedLanguage = getSavedLanguagePreference();
+    const namesDict = savedLanguage === 'arabic' ? allahNamesArabic : allahNames;
+    const availablePairs = Object.entries(namesDict).filter(pair => 
         !usedPairs.has(pair[0]));
     
     // Randomly select 8 pairs
@@ -228,7 +329,92 @@ function handleCardClick(event) {
         }
     }
 }
+function handleLanguageChange(newLanguage) {
+    // Save the new language preference
+    saveLanguagePreference(newLanguage);
+    
+    // Update button text
+    document.getElementById('languageDropdown').textContent = 
+        newLanguage === 'arabic' ? 'Arabic' : 'Transliterated';
+    
+    // Reset game state
+    usedPairs = new Set();
+    currentPairs = [];
+    flippedCards = [];
+    matches = 0;
+    
+    // Reset score display
+    document.getElementById('matches').textContent = '0';
+    
+    // Clear and reinitialize the game board
+    gameBoard.innerHTML = '';
+    initializeGame();
+}
+// function saveLanguagePreference(language) {
+//     localStorage.setItem('preferredLanguage', language);
+// }
 
+// // Function to get saved language preference
+// function getSavedLanguagePreference() {
+//     return localStorage.getItem('preferredLanguage') || 'transliterated'; // default to transliterated if none saved
+// }
 
+// // Update your DOMContentLoaded event listener
+// document.addEventListener('DOMContentLoaded', () => {
+//     // Load saved preference and initialize game
+//     const savedLanguage = getSavedLanguagePreference();
+//     currentLanguage = savedLanguage;
+    
+//     // Update dropdown button text to show saved preference
+//     document.getElementById('languageDropdown').textContent = 
+//         savedLanguage === 'arabic' ? 'Arabic' : 'Transliterated';
+    
+//     initializeGame(savedLanguage);
+    
+//     // Add click handlers for language selection
+//     const dropdownItems = document.querySelectorAll('.dropdown-item');
+//     dropdownItems.forEach(item => {
+//         item.addEventListener('click', function(e) {
+//             e.preventDefault();
+//             const selectedLanguage = this.getAttribute('data-language');
+            
+//             // Save the selected language
+//             saveLanguagePreference(selectedLanguage);
+            
+//             // Update button text
+//             document.getElementById('languageDropdown').textContent = 
+//                 selectedLanguage === 'arabic' ? 'Arabic' : 'Transliterated';
+            
+//             // Update current language and restart game
+//             currentLanguage = selectedLanguage;
+//             resetAndRestartGame();
+//         });
+//     });
+// });
+// document.addEventListener('DOMContentLoaded', () => {
+//     // Load saved preference and initialize game
+//     const savedLanguage = getSavedLanguagePreference();
+    
+//     // Set initial button text
+//     document.getElementById('languageDropdown').textContent = 
+//         savedLanguage === 'arabic' ? 'Arabic' : 'Transliterated';
+    
+//     // Initialize game with saved language
+//     initializeGame();
+    
+//     // Add click handlers for language selection
+//     const dropdownItems = document.querySelectorAll('.dropdown-item');
+//     dropdownItems.forEach(item => {
+//         item.addEventListener('click', function(e) {
+//             e.preventDefault();
+//             const newLanguage = this.getAttribute('data-language');
+            
+//             // Only restart if language actually changed
+//             if (newLanguage !== getSavedLanguagePreference()) {
+//                 handleLanguageChange(newLanguage);
+//             }
+//         });
+//     });
+// });
 // Initialize game when page loads
 document.addEventListener('DOMContentLoaded', initializeGame);
